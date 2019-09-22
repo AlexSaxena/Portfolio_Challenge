@@ -65,7 +65,7 @@ class Cv extends Component {
             <div className="ui main container">
                 <div className="ui stackable two column grid">
                     <div className="column">
-                        <h1 className="ui header">My Previous Workexperience</h1>
+                        <h1 className="ui header">My Previous Work Experience</h1>
                         <div className="ui stackable four column grid">
                             <div id="column">
                                 {workList}
