@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "University of Stockholm ",
+        "image": "https://www.butikeden.se/wp-content/uploads/2016/10/BUTIK-EDEN.png",
+        "description": "Micro Economics A"
+    },
+    {
+        "id": 2,
+        "name": "Sodertorn University ",
+        "image": "https://www.sh.se/webdav/files/System/resources/graphics/Sodertorn_logotyp.svg",
+        "description": "Bachelor of Economics."
+    },
+    {
+        "id": 3,
+        "name": "Cambridge Advanced Exam",
+        "image": "https://4.bp.blogspot.com/-YgbcAvlhC9E/W0UokKl8rgI/AAAAAAAAcEw/ixrZuNubjt4dT-0VvNPu9pzVIvd-RpYggCLcBGAs/s1600/examenes-cambridge-exams-cae-cambridge-advanced-exam-nivel-c1.jpg",
+        "description": "Level: C1"
+    }
+]

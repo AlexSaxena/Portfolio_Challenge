@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "name": "Butik Eden",
+        "image": "https://www.butikeden.se/wp-content/uploads/2016/10/BUTIK-EDEN.png",
+        "description": "A small store chain"
+    },
+    {
+        "id": 2,
+        "name": "LexMan",
+        "image": "https://images.unsplash.com/photo-1548175551-1edaea7bbf0d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80",
+        "description": "Staffingstaffing company that provides personnel when regular workforce is not enough or in case of sick staff."
+    }
+    
+]
