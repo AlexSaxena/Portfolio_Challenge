@@ -4,18 +4,18 @@ const EducationCard = (props) => {
     let education = props.education
     return (
         <>
-            <div class="ui card" id="card-div">
-                <div class="image">
+            <div className="ui card" id="card-div">
+                <div className="image">
                     <img src={education.image} />
                 </div>
-                <div class="content">
-                    <h3 class="ui header">{education.name}</h3>
+                <div className="content">
+                    <h3 className="ui header">{education.name}</h3>
 
-                    <div class="description">
+                    <div className="description">
                         {education.description}
                     </div>
                 </div>
-            </div>
+            </div>        
         </>
     )
 }

@@ -8,12 +8,12 @@ class Cv extends Component {
         super();
         this.state = {
             work: [],
-            educations: []
+            education: []
         };
     }
     componentDidMount() {
         this.getWorkList(),
-        this.getEducations()
+        this.getEducationList()
     }
 
     getWorkList() {
@@ -25,11 +25,11 @@ class Cv extends Component {
         })
     }
 
-    getEducations() {
+    getEducationList() {
         axios.get('./src/data/education.json')
         .then(response => {
             this.setState({
-                educations: response.data
+                education: response.data
             })
         })
     }
@@ -48,11 +48,11 @@ class Cv extends Component {
             })
         }
 
-        const educations = this.state.educations
-        let educationsList
+        const education = this.state.education
+        let educationList
 
-        if (educations.lenght > 0) {
-            educationsList = educations.map(education => {
+        if (education.lenght > 0) {
+            educationList = education.map(education => {
                 return (
                     <div key={education.id}>
                         <EducationCard education={education} />
@@ -76,7 +76,7 @@ class Cv extends Component {
                     <h1 className="ui header">My Education</h1>
                     <div className="ui stackable four column grid">
                     <div id="column">
-                            {educationsList}
+                            {educationList}
                         </div>
                     </div>
                 </div>
